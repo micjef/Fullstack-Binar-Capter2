@@ -8,7 +8,7 @@ function sortCarByYearDescendingly(cars) {
 
   // Tulis code-mu disini
   //sort cars by year descendingly
-  resultDescending.sort((a, b) => b.year - a.year);
+  resultDescending.sort((a, b) => a.year - b.year);
   console.log(resultDescending);
 
   // Rubah code ini dengan array hasil sorting secara descending
